@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test parallel="methods" thread-count="2" verbose="2" preserve-order="true" name="D:/IS 4th year/SQA/Assignment 2/Assignment2">
+        <classes>
+            <class name="LassanaFlora_POM.tests.LassanaFlora">
+                <methods>
+
+                    <include name="searchGifts"/>
+                    <include name="searchFlowers"/>
+<!--                    <include name="editAccount"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
